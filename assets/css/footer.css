@@ -1,0 +1,14 @@
+#footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    bottom: 0;
+    height: 6em;
+    left: 0;
+    line-height: 8em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    color: aliceblue;
+}
+

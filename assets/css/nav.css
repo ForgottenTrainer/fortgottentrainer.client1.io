@@ -1,0 +1,128 @@
+
+/*NavBar Styling*/
+
+.navbar{
+    position: fixed;
+    padding: 10px 0;
+    width: 100%;
+    transition: all 0.3s ease;
+    z-index: 999;
+    padding: 30px 0;
+    background-color: rgba(73, 72, 72, 0.6);
+    box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+}
+
+.navbar.sticky{
+    padding: 30px 0;
+    background-color: rgba(73, 72, 72, 0.6);
+    box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+}
+.navbar.sticky .logo a span{
+    color:#fff;
+}
+.navbar .max-width{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight:600;
+}
+
+.navbar .logo a span{
+    color:rgb(156, 126, 195);
+    transition:all 0.3s ease ;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.navbar .menu li a{
+    color: #fff;
+    font-size:18px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: color 0.3s ease ;
+    padding-right: 25px;
+}
+
+.navbar.sticky .menu li a:hover{
+    color:#fff;
+    
+}
+
+.navbar .menu li a:hover {
+    color:rgb(124, 62, 206);
+}
+
+/*menu btn styling*/
+
+.menu-btn{
+    color: #fff;
+    font-size:23px;
+    cursor: pointer;
+    display: none;
+}
+
+.logo {
+    max-width: 40%;
+    max-height: 40%;
+}
+@media(max-width: 947px){
+    .max-width{
+        padding: 0 50px;
+    }
+
+    .menu-btn{
+        display:block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before{
+        content: "\f00d"
+    }
+    .navbar {
+        width: 100%;
+        background-color: rgba(73, 72, 72, 0.6);
+        box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(15px);
+    }
+    .navbar .menu{
+        position: fixed;
+        height:100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background-image: linear-gradient(
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),url('./images/bg.png');
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu.active {
+        left:  0;
+    }
+    .navbar .menu li a {
+        display: inline-block;
+        margin: 20px 0 ;
+        font-size:25px;
+    }
+
+    .logo {
+        max-width: 65%;
+        max-height: 65%;
+    }
+}
