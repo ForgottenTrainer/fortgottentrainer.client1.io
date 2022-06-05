@@ -72,7 +72,10 @@ input, select, textarea {
 	}
 
 	body {
-		background: #1f205a ;
+		background: linear-gradient(
+			rgba(0,0,0,0.5),
+			rgba(0,0,0,0.5)
+		),url('./images/bg1.png');
 
 	}
 
@@ -139,6 +142,15 @@ input, select, textarea {
 	font-weight: 600;
 	padding: 5px;
 	border-radius: 10px;
+}
+
+.para {
+	font-weight: 600;
+}
+
+.titles {
+	max-width: 50%;
+	max-height: 50%;
 }
 
 /* Icon */
@@ -977,14 +989,42 @@ input, select, textarea {
 		padding-left: 5%;
 		font-size: 1.5rem;
 	}
+
+	body {
+		background-image: linear-gradient(
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),url('./images/bg1.png');
+	}
+
 }
 
 @media(max-width: 550px) {
+	body {
+		background-image: linear-gradient(
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),url('./images/bg1.png');
+	}
+
+	.para {
+		font-weight: 600;
+		color: #fff;
+	}
+
+	.titles {
+		max-width: 90%;
+		max-height: 90%;
+	}
+	
 	.about-project {
 		padding-top: 70%;
 		padding-left: 7%;
 		font-size: 1.5rem;
 	}
 
-	
+	.more {
+		padding: 20px;
+	}
+
 }
