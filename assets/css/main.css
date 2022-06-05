@@ -75,7 +75,7 @@ input, select, textarea {
 		background: linear-gradient(
 			rgba(0,0,0,0.5),
 			rgba(0,0,0,0.5)
-		),url('./images/bg1.png');
+		),url('./images/bg.png');
 
 	}
 
@@ -994,7 +994,7 @@ input, select, textarea {
 		background-image: linear-gradient(
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
-        ),url('./images/bg1.png');
+        ),url('./images/bg.png');
 	}
 
 }
@@ -1004,12 +1004,12 @@ input, select, textarea {
 		background-image: linear-gradient(
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
-        ),url('./images/bg1.png');
+        ),url('./images/bg.png');
 	}
 
 	.para {
 		font-weight: 600;
-		color: #fff;
+		color: #000;
 	}
 
 	.titles {
@@ -1025,6 +1025,8 @@ input, select, textarea {
 
 	.more {
 		padding: 20px;
+		color: #000;
+		background: #f3f3f34d;
 	}
 
 }
