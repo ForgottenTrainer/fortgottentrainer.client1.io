@@ -75,7 +75,7 @@ input, select, textarea {
 		background: linear-gradient(
 			rgba(0,0,0,0.5),
 			rgba(0,0,0,0.5)
-		),url('./images/bg.png');
+		),url('./images/andy-holmes-rCbdp8VCYhQ-unsplash.jpg');
 
 	}
 
@@ -257,7 +257,7 @@ input, select, textarea {
 		background: linear-gradient(
 			rgba(0,0,0,0.1),
 			rgba(0,0,0,0.1)
-		), url("./images/pngwing.com\(1\).png") bottom left;
+		), url("./images/bg.png") bottom left;
 		background-repeat: repeat-x;
 		background-size: cover;
 		height: 100%;
