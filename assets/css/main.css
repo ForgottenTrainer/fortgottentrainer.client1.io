@@ -984,6 +984,11 @@ input, select, textarea {
 		} }
 
 @media(max-width: 947px) {
+
+	#bg {
+		background: transparent;
+	}
+
 	.about-project {
 		padding-top: 35%;
 		padding-left: 5%;
