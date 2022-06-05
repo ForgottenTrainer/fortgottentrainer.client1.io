@@ -833,10 +833,11 @@ input, select, textarea {
 			padding: 0 1em;
 		} }
 
-@media(max-width: 1300px){
-	#bg {
-		background-size: cover;
+@media(max-width: 1630px){
+	body{
+		background: url('./images/bg.png');
 	}
+
 }
 
 @media(max-width: 1299px){
@@ -855,21 +856,14 @@ input, select, textarea {
 		font-size: 1.5rem;
 	}
 
-	body {
-		background-image: linear-gradient(
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        ),url('./images/bg.png');
-	}
+
 
 }
 
 @media(max-width: 550px) {
-	body {
-		background-image: linear-gradient(
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        ),url('./images/bg.png');
+
+	body{
+		background: url('./images/bg.png');
 	}
 
 	.para {
@@ -893,5 +887,5 @@ input, select, textarea {
 		color: #000;
 		background: #f3f3f34d;
 	}
-
 }
+
